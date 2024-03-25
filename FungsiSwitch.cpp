@@ -45,18 +45,22 @@ int main(){
         case 1:
             input();
             cout << "Hasil penjumlahan = " << penjumlahan(bil1, bil2) << endl;
+            system("pause");
             break;
         case 2:
             input();
             cout << "Hasil pengurangan = " << pengurangan(bil1, bil2) << endl;
+            system("pause");
             break;
         case 3:
             input();
             cout << "Hasil perkalian = " << perkalian(bil1, bil2) << endl;
+            system("pause");
             break;
         case 4:
             input();
             cout << "Hasil pembagian = " << pembagian(bil1, bil2) << endl;
+            system("pause");
             break;
         case 5:
             break;
@@ -65,5 +69,6 @@ int main(){
             cout << "Silahkan Coba Lagi" << endl;
             break;
         }
+    system("CLS");
     }while(pilihan != 5);
 }
