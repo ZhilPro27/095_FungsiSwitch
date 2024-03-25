@@ -30,6 +30,7 @@ float pembagian(float a, float b){      //Fungsi Pembagian
 int main(){
     int pilihan;    //Deklarasi variable untuk menentukan pilihan
 
+    do{     //Pengulangan
     cout << "===================" << endl; //Pilihan Menu
     cout << "MENU" << endl;
     cout << "1. Penjumlahan " << endl;
@@ -63,5 +64,6 @@ int main(){
             cout << "Pilihan Tidak Ada" << endl;
             cout << "Silahkan Coba Lagi" << endl;
             break;
-    }
+        }
+    }while(pilihan != 5);
 }
