@@ -15,6 +15,10 @@ float penjumlahan(float a, float b){    //Fungsi penjumlahan
     return a + b;
 }
 
+float pengurangan(float a, float b){    //Fungsi pengurangan
+    return a - b;
+}
+
 int main(){
 
 }
