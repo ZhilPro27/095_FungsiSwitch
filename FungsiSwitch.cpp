@@ -39,4 +39,12 @@ int main(){
     cout << "5. EXIT " << endl;
     cout << "Masukkan pilihan 1/2/3/4/5 = ";
     cin >> pilihan;
+
+    switch (pilihan){   //Switch case
+        case 1:
+            input();
+            cout << "Hasil penjumlahan = " << penjumlahan(bil1, bil2) << endl;
+            break;
+        
+    }
 }
