@@ -10,6 +10,11 @@ void input() {  //Prosedur input
     cin >> bil2;
 }
 
+
+float penjumlahan(float a, float b){    //Fungsi penjumlahan
+    return a + b;
+}
+
 int main(){
-    
+
 }
