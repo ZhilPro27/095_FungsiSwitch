@@ -45,6 +45,10 @@ int main(){
             input();
             cout << "Hasil penjumlahan = " << penjumlahan(bil1, bil2) << endl;
             break;
+        case 2:
+            input();
+            cout << "Hasil pengurangan = " << pengurangan(bil1, bil2) << endl;
+            break;
         
     }
 }
