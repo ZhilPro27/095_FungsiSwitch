@@ -2,3 +2,14 @@
 using namespace std;
 
 int bil1, bil2; //Deklarasi variable global
+
+void input() {  //Prosedur input
+    cout << "Masukkan bilangan pertama = ";
+    cin >> bil1;
+    cout << "Masukkan bilangan kedua = ";
+    cin >> bil2;
+}
+
+int main(){
+    
+}
