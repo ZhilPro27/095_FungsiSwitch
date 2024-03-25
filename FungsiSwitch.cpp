@@ -59,5 +59,9 @@ int main(){
             break;
         case 5:
             break;
+        default:
+            cout << "Pilihan Tidak Ada" << endl;
+            cout << "Silahkan Coba Lagi" << endl;
+            break;
     }
 }
