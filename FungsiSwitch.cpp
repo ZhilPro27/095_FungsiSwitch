@@ -57,5 +57,7 @@ int main(){
             input();
             cout << "Hasil pembagian = " << pembagian(bil1, bil2) << endl;
             break;
+        case 5:
+            break;
     }
 }
