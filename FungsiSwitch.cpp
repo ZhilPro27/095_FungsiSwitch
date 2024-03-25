@@ -28,5 +28,6 @@ float pembagian(float a, float b){      //Fungsi Pembagian
 }
 
 int main(){
+    int pilihan;    //Deklarasi variable untuk menentukan pilihan
 
 }
