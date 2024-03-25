@@ -49,6 +49,9 @@ int main(){
             input();
             cout << "Hasil pengurangan = " << pengurangan(bil1, bil2) << endl;
             break;
-        
+        case 3:
+            input();
+            cout << "Hasil perkalian = " << perkalian(bil1, bil2) << endl;
+            break;
     }
 }
