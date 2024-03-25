@@ -19,6 +19,10 @@ float pengurangan(float a, float b){    //Fungsi pengurangan
     return a - b;
 }
 
+float perkalian(float a, float b){      //Fungsi Perkalian
+    return a * b;
+}
+
 int main(){
 
 }
