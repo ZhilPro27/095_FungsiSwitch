@@ -67,6 +67,7 @@ int main(){
         default:
             cout << "Pilihan Tidak Ada" << endl;
             cout << "Silahkan Coba Lagi" << endl;
+            system("pause");
             break;
         }
     system("CLS");
