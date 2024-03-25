@@ -53,5 +53,9 @@ int main(){
             input();
             cout << "Hasil perkalian = " << perkalian(bil1, bil2) << endl;
             break;
+        case 4:
+            input();
+            cout << "Hasil pembagian = " << pembagian(bil1, bil2) << endl;
+            break;
     }
 }
