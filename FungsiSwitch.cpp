@@ -23,6 +23,10 @@ float perkalian(float a, float b){      //Fungsi Perkalian
     return a * b;
 }
 
+float pembagian(float a, float b){      //Fungsi Pembagian
+    return a / b;
+}
+
 int main(){
 
 }
